@@ -1,0 +1,38 @@
+<html>
+    <!--  combinator,cascanding
+    1.desecendant selector
+    2.child selector
+    3.adjacent siblling selector
+    4. genraral sibling selector
+     2.     syntax is div ~p-->
+     <head>
+      <style>
+        div +p {
+            color:blue;
+        }
+        div p{
+            color:red;
+        }
+        div >p{
+            color:aqua;
+        }
+        div ~p{
+            color:violet;
+        }
+    
+     </style>
+     </head>
+     <body>
+        <div>
+            <p> mahin</p>
+            <p>Syeda</p>
+            <span>
+                <p>combinator</p>
+            </span>
+        </div>
+        <p> mahi</p>
+        <p>sye</p>
+        <p> mohammadi</p>
+     </body>
+</html>
+     
