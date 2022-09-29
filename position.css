@@ -6,3 +6,44 @@
     position:fixed;
     top:0;
 }
+.absulute{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.absulutemahin{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.imageparent{
+position:relative;
+
+}
+.absulute1{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.absulute2{
+    position:absolute;
+    top:0;
+    left:330px;
+}
+.absulute3{
+    position:absolute;
+    bottom: 0;
+    left: 330px
+}
+.absulute4{
+    position:absolute;
+    top: 50%;
+    bottom: 50%;
+    margin:-50px;
+    padding:50px;
+    transform: translate(-50%,-50%);
+
+
+    
+    
+}

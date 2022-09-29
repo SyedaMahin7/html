@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    background-color: aquamarine;
+}
+li{
+    float: left;
+    border-right: 1px solid blue;
+
+}
+a{
+    display:block;
+    padding: 0 28px;
+    color:green;
+    text-decoration: none;
+}
+a:hover{
+    background-color: blueviolet;
+}
+.verticle{
+    background-color: blueviolet;
+}

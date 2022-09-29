@@ -1,10 +1,7 @@
 .row{
-    content:image;
     display:table;
-    clear:both;
 }
-.column:after{
-    content:image;
-    display:table;
-    clear:both; 
+.column{
+    display:none;
+
 }
